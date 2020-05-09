@@ -239,3 +239,27 @@ body{
 
   }
 /* End Features */
+
+/* Start Developers */
+.ms_carousel_wrap{
+    width: 600px;
+    margin: 0 auto 20px;
+    display: inline-block;
+}
+.ms_arrows{
+    font-size: 3rem;
+    padding: 0 30px;
+}
+.ms_carousel_wrap .ms_carousel_img{
+    width: 100%;
+}
+.ms_grey_text{
+    font-size: 30px;
+}
+.ms_intro .ms_grey_text{
+  margin-bottom: 150px;
+}
+figcaption p{
+    color: #031c4e;
+    font-weight: 500;
+}
