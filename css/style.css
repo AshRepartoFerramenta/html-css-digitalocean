@@ -263,3 +263,13 @@ figcaption p{
     color: #031c4e;
     font-weight: 500;
 }
+
+/* Start Business */
+.ms_business_needs .ms_intro h2{
+    margin-bottom: -30px;
+}
+.ms_3block_inline{
+    width: calc(100%/3);
+    padding: 0 20px;
+}
+/* End Business */
