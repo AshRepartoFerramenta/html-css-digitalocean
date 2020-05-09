@@ -1,8 +1,4 @@
 /* General rules */
-/* html{
-   font-size: 62.5%;
- } */
-
 body{
     font-size: 12px;
     font-family:'Roboto', sans-serif;
@@ -64,7 +60,7 @@ body{
  ul{
    padding: 0;
  }
-/* End General Rules */
+/* End Section Rules */
 
 /* Header */
  .ms_nav{
@@ -112,7 +108,7 @@ body{
       margin-bottom: 0;
     }
     .ms_jumbo_text_left{
-      padding: 0 40px 0 0;
+      padding: 0 40px;
     }
     .ms_jumbo_text_left h1{
       color: #fff;
@@ -172,7 +168,7 @@ body{
       height: 20px;
     }
     .ms_jumbo_box_right p{
-      font-size: 1.2rem;
+      font-size: 15px;
       font-weight: 500;
     }
     .ms_jumbo_box_right p a{
@@ -180,4 +176,20 @@ body{
     }
   /* End Jumbotron*/
 
- 
+  /* Selection Clients */
+    .ms_clients h2{
+      font-size: 1.6rem;
+      color: #6f7b97;
+    }
+    .ms_list_img li{
+      display: inline-block;
+      vertical-align: middle;
+      padding: 20px 10px;
+    }
+    .ms_list_img li img{
+      width: 160px;
+    }
+    .ms_clients a{
+      font-weight: 500;
+    }
+  /* End Selection Clients */
