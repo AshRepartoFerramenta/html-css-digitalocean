@@ -1,0 +1,29 @@
+/* General rules */
+body {
+  font-family: "Roboto", sans-serif;
+  padding-top: 50px;
+}
+
+body .wrapper {
+  width: 80%;
+  max-width: 992px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* Section Rules */
+.ms_jumbotron {
+  background-image: url(../img/bg-home-1-d54581d7.jpg);
+  padding: 60px 0;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg_grey {
+  background: #f3f5f9;
+  padding: 40px 0;
+  text-align: center;
+  color: #5c6a88;
+}
