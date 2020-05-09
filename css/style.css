@@ -1,29 +1,183 @@
 /* General rules */
-body {
-  font-family: "Roboto", sans-serif;
-  padding-top: 50px;
-}
+/* html{
+   font-size: 62.5%;
+ } */
 
-body .wrapper {
-  width: 80%;
-  max-width: 992px;
-  margin: 0 auto;
-  padding: 30px 0;
-}
+body{
+    font-size: 12px;
+    font-family:'Roboto', sans-serif;
+    padding-top: 70px;
+  }
+  .clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h3{
+    font-size: 30px;
+    color: #031c4e;
+  }
+  h4{
+    color: #fff;
+  }
+  .ms_p_miniblock{
+    color: #5c6a88;
+  }
+  .ms_intro_white h2{
+    color: #fff;
+    font-size: 50px;
+    padding-bottom: 20px;
+  }
+  .ms_intro h2{
+    font-size: 50px;
+    color: #031c4e;
+  }
+  .ms_grey_text{
+    font-size: 35px;
+    color: #5c6a88;
+  }
+  cite{
+    color: #000;
+    font-style: normal;
+    font-weight: 500;
+  }
+/* End general rules */
 
 /* Section Rules */
-.ms_jumbotron {
-  background-image: url(../img/bg-home-1-d54581d7.jpg);
-  padding: 60px 0;
-  color: white;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
 
-.bg_grey {
-  background: #f3f5f9;
-  padding: 40px 0;
-  text-align: center;
-  color: #5c6a88;
-}
+ .ms_grayback{
+   background-color: #f3f5f9;
+   padding: 30px 0;
+ }
+ .ms_section{
+   padding: 60px 0;
+ }
+ .ms_intro{
+   margin-bottom: 70px;
+ }
+ .ms_features_blocks{
+   width: 50%;
+   height: 200px;
+   padding-right: 5px;
+   float: left;
+ }
+ ul{
+   padding: 0;
+ }
+/* End General Rules */
+
+/* Header */
+ .ms_nav{
+   background-color: #fff;
+   border: none;
+   height: 70px;
+ }
+ .ms_menu {
+   margin-top: 10px;
+ }
+ .ms_menu li{
+   margin-left: -5px;
+ }
+ .ms_links_nav{
+   color: #000;
+ }
+ .ms_nav .ms_menu > li > .ms_links_nav{
+   color: #000;
+   font-weight: 500;
+ }
+ .ms_nav .ms_menu > li > .ms_links_nav:focus, .ms_nav .ms_menu > li > .ms_links_nav:hover {
+   color: #006aff;
+   background-color: transparent;
+ }
+ .ms_logo{
+   height: 30px;
+   margin-top: 4px;
+ }
+ .ms_button_blue_text{
+   color: #006aff;
+   border: 1px solid #006aff;
+ }
+ .ms_burger_menu{
+   font-size: 2.3rem;
+   margin-top: 23px;
+ }
+ /** Main **/
+
+  /* Start Jumbotron */
+    .ms_jumbo{
+      background-image: url(../img/bg-home-1-d54581d7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 50px 10px;
+      margin-bottom: 0;
+    }
+    .ms_jumbo_text_left{
+      padding: 0 40px 0 0;
+    }
+    .ms_jumbo_text_left h1{
+      color: #fff;
+    }
+    .ms_jumbo_text_left p{
+      color: #bbcdff;
+    }
+    .ms_jumbo_box_right{
+      background-color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      margin-top: 5px;
+      padding:20px;
+    }
+    .ms_blue_h3{
+      color: #006aff;
+      margin-top: 3px;
+    }
+    .ms_form{
+      margin-bottom: 10px;
+    }
+    .ms_input{
+      padding: 20px 0 20px 5px;
+      box-shadow: none;
+      border: 1px solid rgba(204,204,204, .3);
+      font-weight: 500;
+    }
+    .ms_button_blue{
+      width: 100%;
+      background-color: #579aff;
+      color: #fff;
+      font-weight: 500;
+      margin-bottom: 10px;
+      border: none;
+      padding: 8px 0;
+    }
+    .ms_button_blue:hover, .ms_button_blue:focus {
+      background-color: #006aff;
+      color: #fff;
+      transition: .3s;
+    }
+    .ms_button{
+      position: relative;
+      width: 100%;
+      font-weight: 500;
+      color: #7b7b7b;
+      margin-bottom: 12px;
+      border: none;
+      padding: 8px 0;
+      -webkit-box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+      -moz-box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+      box-shadow: 1px 1px 1px 1px rgba(207,207,207,1);
+    }
+    .ms_button .ms_icon_btn{
+      position: absolute;
+      left: 10px;
+      height: 20px;
+    }
+    .ms_jumbo_box_right p{
+      font-size: 1.2rem;
+      font-weight: 500;
+    }
+    .ms_jumbo_box_right p a{
+      text-decoration: underline;
+    }
+  /* End Jumbotron*/
+
+ 
