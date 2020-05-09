@@ -10,10 +10,11 @@ body{
     clear: both;
   }
   h3{
-    font-size: 30px;
+    font-size: 20px;
     color: #031c4e;
   }
   h4{
+    font-size: 15px;
     color: #fff;
   }
   .ms_p_miniblock{
@@ -177,6 +178,9 @@ body{
   /* End Jumbotron*/
 
   /* Selection Clients */
+    .ms_clients {
+        background-color: #ebedf1;
+    }
     .ms_clients h2{
       font-size: 1.6rem;
       color: #6f7b97;
@@ -193,3 +197,45 @@ body{
       font-weight: 500;
     }
   /* End Selection Clients */
+
+  /* Start Features */
+  .ms_container_features{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .ms_click_list{
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  .ms_click_list li{
+    padding: 10px 0 10px 10px;
+    border-left: 2px solid #ccc;
+  }
+  .ms_click_list li:hover{
+    border-left: 2px solid #006aff;
+  }
+  .ms_click_list li:nth-child(1n+6){
+    border-left: 2px solid #006aff;
+  }
+  .ms_click_list li a{
+    font-size: 25px;
+    color: #75809a;
+  }
+  .ms_click_list li:first-child a{
+    font-size: 25px;
+    color: #000;
+  }
+  .ms_click_list li a:hover{
+    text-decoration: none;
+    color: #000;
+  }
+  .ms_click_list li a:focus{
+    text-decoration: none;
+    color: #000;
+  }
+  .ms_features_blocks{
+      padding: 10px 10px;
+      letter-spacing: 1.5px;
+
+  }
+/* End Features */
