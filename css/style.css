@@ -108,6 +108,9 @@ body{
       padding: 50px 10px;
       margin-bottom: 0;
     }
+    .ms_jumbo>.container{
+        background-image: linear-gradient(to right top, #ed06f6, #c605e8, #9f07d9, #7709c9, #4c0ab8);
+    }
     .ms_jumbo_text_left{
       padding: 0 40px;
     }
@@ -273,3 +276,50 @@ figcaption p{
     padding: 0 20px;
 }
 /* End Business */
+
+/* Box-list customers service */
+    .ms_blue_gradient{
+        background-image: linear-gradient(to right top, #ed06f6, #c605e8, #9f07d9, #7709c9, #4c0ab8);
+    }
+    .ms_list_servers{
+      margin-top: 10px;
+    }
+    .ms_list_servers li{
+      list-style: none;
+      padding: 8px 0;
+      border-bottom: 1px solid #fff;
+      color: #fff;
+      font-size: 15px;
+      position: relative;
+      padding-left: 10px;
+    }
+    .ms_list_servers li a{
+      position: absolute;
+      right: 0;
+      color: #00d7d2;
+    }
+    .ms_list_servers li .ms_nation{
+      color: #b8c5e7;
+      margin-left: 40px;
+    }
+  /* section servers end */
+
+  /* section reviews start */
+    .ms_review_wrap{
+      width: 550px;
+      padding: 70px 20px;
+      margin: 0 auto 20px;
+      background-color: #fff;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .ms_review_wrap img{
+      padding-bottom: 20px;
+    }
+    .ms_review_container img{
+      display: block;
+      margin: 0 auto;
+    }
+ /* End Box-list customers service */
+
+/* End Main */
