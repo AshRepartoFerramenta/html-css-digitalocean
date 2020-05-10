@@ -124,7 +124,6 @@ body{
       background-color: #fff;
       border-radius: 5px;
       text-align: center;
-      margin-top: 5px;
       padding:20px;
     }
     .ms_blue_h3{
@@ -323,3 +322,158 @@ figcaption p{
  /* End Box-list customers service */
 
 /* End Main */
+
+/* Start Footer */
+footer{
+    background-color: #031c4e;
+    padding: 70px 0;
+    color: #7a859d;
+    font-weight: 500;
+  }
+  footer img{
+    padding-bottom: 10px;
+  }
+  footer p{
+    margin-bottom: 0;
+  }
+  .ms_darker{
+    color: #5a6887;
+  }
+  .ms_footer_social_list{
+    padding: 0;
+  }
+  .ms_footer_social_list li{
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  .ms_footer_social_list li a{
+    color: #7a859d;
+  }
+  .ms_menu_list{
+    list-style-type: none;
+  }
+  .ms_menu_list li{
+    padding: 5px 0;
+  }
+  .ms_menu_list li a{
+    color: #a6adbd;
+  }
+  /* End Footer */
+
+/* Start Chat 666 */
+  .ms_chat_box {
+    position: fixed;
+    width: 115%;
+    bottom: 10px;
+    text-align: left;
+  }
+  .ms_container_chat{
+    position:relative;
+  }
+  .ms_chat_box_message {
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+    padding: 10px;
+    width: 300px;
+    color: #031c4e;
+    font-size: 15px;
+    background-image: linear-gradient(to right top, #ed06f6, #c605e8, #9f07d9, #7709c9, #4c0ab8);
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  .ms_chat_box_message p {
+    margin: 0;
+    color: white;
+  }
+  .ms_chat_box_message i {
+    position: absolute;
+    bottom: 0.5px;
+    right: -12px;
+    color: #ed06f6;
+    font-size: 30px;
+  }
+  .ms_chat_box_icon_wrap{
+    position: absolute;
+    right: 65px;
+    bottom: 30px;
+  }
+  .ms_chat_box_icon {
+    display: inline-block;
+    position: relative;
+    padding: 5px;
+  }
+  .ms_chat_box_icon img {
+    height: 50px;
+  }
+  .ms_chat_box_message_number{
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    width: 30px;
+    line-height: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    background-color: #c605e8;
+    border: 5px solid white;
+    border-radius: 50%;
+  }
+  /* End Chat 666 */
+
+  /* Start media query xs */
+  @media all and (max-width: 767px) {
+    /* Features */
+      .ms_features_blocks{
+        width: 100%;
+        height: 100%;
+      }
+
+    /* Developers */
+      .ms_carousel_wrap{
+        width: 350px;
+      }
+
+    /* Reviews */
+      .ms_review_wrap{
+        width: 300px;
+      }
+      .ms_review_wrap img{
+        width: 250px;
+        padding-bottom: 20px;
+      }
+
+    /* Chat*/
+    .ms_chat_box_message {
+      width: 400px;
+    }
+  }
+/* End media query xs */
+
+/* Start media query sm md */
+  @media all and (min-width: 768px) and (max-width: 1199px) {
+    /* Clients */
+      .ms_list_img li img{
+        width: 110px;
+      }
+      .ms_list_img li{
+        padding: 18px 3px;
+      }
+
+    /* Business */
+      .ms_3block_inline{
+        margin-bottom: 60px;
+      }
+  }
+/* End media query sm md */
+
+/* Start media query lg */
+  @media all and (min-width: 1200px) {
+    /* Clients */
+      .ms_list_img li{
+        padding: 0 3px;
+      }
+  }
+/* End media query lg */
